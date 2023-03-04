@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Interest Calculator</h1>
+        
+        <div class="form">
+        <form>
+
+        <label for="Amount">Amount:</label>
+        <input type="number" id="principle"><br>
+
+        <div class="slidecontainer">
+            <label for="Rate">Rate:</label> 
+            <input type="range" min="1" max="100" value="50" class="slider" id="rate" onchange="myFunction()">
+            <span id="rateResult"></span>%
+        </div>
+
+        <label for="No_of_Years" id="noy">No. of years:</label>
+        <input type="number" id="years" min="1" max="100"><br>
+
+        <button onclick="compute();return false">Compute Interest</button>
+        
+        <p id="result"></p><br>
+
+        </form>
+        </div>
+
+
+        
+    </body>
+</html>

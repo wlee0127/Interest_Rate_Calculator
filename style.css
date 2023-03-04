@@ -1,0 +1,45 @@
+body {background-color:rgb(172, 233, 155);}
+h1{color:black;text-align:center}
+
+div.form{
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+form{
+    border-style: none;
+    padding-left: 35px;
+    background-color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+label[id=noy]{
+    padding-bottom: 20px;
+}
+label{
+    display:inline-block; 
+    width: 110px; 
+    color:black; 
+    line-height:2.25em;
+    padding-left: 1px;
+}
+
+input{
+    width:125px
+}
+
+input[id=years]{
+    width:40px
+}
+
+button{
+    line-height: 20px;
+}
+p{
+  width:250px
+}
+
+
