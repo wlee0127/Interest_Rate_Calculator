@@ -1,4 +1,4 @@
-function compute() {
+function calculate() {
     p = document.getElementById("principle").value;
     r = document.getElementById("rate").value;
     n = document.getElementById("years").value;
@@ -16,3 +16,4 @@ function compute() {
     document.getElementById("rateResult").innerHTML = val //displays this value to the html page
   }
   
+  //comment
